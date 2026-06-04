@@ -4,10 +4,8 @@ export default function navbarpage(){
             <div className="bg-white flex-col h-170 w-96 p-2 flex rounded-2xl ">
                 <img src="/layout-dashboard.svg" className="h-5 w-5 rounded-2xl" />
                 <p className="text-2xl text-black font-medium">Dashboard</p>
-                
                 <img src="/message.svg" className="h-5 w-5 rounded-2xl" />
                 <p className="text-2xl text-black font-medium">Messages</p>
-                
                 <img src="/checklist.svg" className="h-5 w-5 rounded-2xl" />
                 <p className="text-2xl text-black font-medium">tasks</p>
                 <img src="/note.svg" className="h-5 w-5 rounded-2xl" />
@@ -22,6 +20,13 @@ export default function navbarpage(){
                 <p className="text-2xl text-black font-medium">workflows</p>
                 <img src="/chevron-down.svg" className="h-5 w-5 rounded-2xl" />
                 <p className="text-2xl text-black font-medium">favorites</p>
+                <img src="/key.svg" className="h-5 w-5 rounded-2xl" />
+                <p className="text-2xl text-black font-medium">key accounts</p>
+                <img src="/chart-bar.svg" className="h-5 w-5 rounded-2xl" />
+                <img src="/timeline.svg" className="h-5 w-5 rounded-2xl" />
+                <p className="text-2xl text-black font-medium">focus area</p>
+                <img src="/star.svg" className="h-5 w-5 rounded-2xl" />
+                <p className="text-2xl text-black font-medium">starred items</p>
             </div>
         </div>
 
