@@ -1,19 +1,11 @@
-export default function tessspage(){
-    return (
+import Card from "./components/card";
 
-        <div className="bg-green-100 h-screen flex gap-4 justify-center">
-        <div className="bg-red-100 h-72 w-96 flex flex-col justify-between p-20 text-blue-950">
-            <div>
-                <img src="/palette.svg"/>
-                <p className="text-black font-medium">Design</p>
-          </div>
-          <div>
-            <h1 className="text-2xl text-black font-bold">Sketch</h1>
-            <p className="text-black"> 4 days ago</p>
-          </div>
-        </div>
+export default function HolidayPage() {
+  return (
+    <div className="h-screen text-gray-900 flex justify-center items-center gap-4">
+      <Card imgSrc="/golden-gate.jpg" cityName="san francisco" type="Premium Economy"
+      />
+
     </div>
-
-    )
+  );
 }
-

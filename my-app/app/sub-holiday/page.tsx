@@ -5,7 +5,7 @@ export default function HolidayPage() {
     <div className="h-screen text-gray-900 flex justify-center items-center gap-4">
       <Card imgSrc="/golden-gate.jpg" cityName="san francisco" type="Premium Economy"
       />
-      <Card imgSrc="/ikn.jpg" cityName="nusantara" type="Business Class" />
+      <Card imgSrc="/ikn.jpg" cityName="kanker" type="lu ngepain ke IKN geng" />
     </div>
   );
 }
